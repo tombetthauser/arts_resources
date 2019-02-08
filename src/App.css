@@ -48,7 +48,7 @@ body {
   	font-weight: 100;
 }
 
-/*.bannerLight:hover {
+.bannerLight:hover {
   	background-size: 115%;
 	min-height: 500px; 
   	transition: 2.5s;
@@ -57,7 +57,7 @@ body {
   	transition: 2.5s;
   	padding-left: 10px; 
   	letter-spacing: .75px;
-}*/
+}
 
 .bannerDark {
   	background-size: 102%;
@@ -78,7 +78,7 @@ body {
   	font-weight: 800;
 }
 
-/*.bannerDark:hover {
+.bannerDark:hover {
   	background-size: 115%;
 	min-height: 500px; 
   	transition: 2.5s;
@@ -89,7 +89,7 @@ body {
   	letter-spacing: .75px;
   	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 
-}*/
+}
 
 #imgSpan:hover {
 	text-decoration: none;
