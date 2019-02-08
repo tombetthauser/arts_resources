@@ -66,7 +66,7 @@ const Banner = (props) => {
 					// robots.length + ' resources' + textB[txtNum] + '...'
 				}
 			</div>
-			<a className='imgATag' target='new' href={imgArr[imgNum].img}>
+			<a className='imgATag' href={imgArr[imgNum].img}>
 				<div 
 					className={bannerClass()}
 					style={
