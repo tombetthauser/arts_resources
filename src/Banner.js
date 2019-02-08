@@ -4,18 +4,22 @@ import {robots} from './robots.js';
 const imgArr = [
 	{	
 		img: 'https://www.metmuseum.org/toah/images/hb/hb_19.164.jpg', 
+		imgLink: 'https://www.metmuseum.org/art/collection/search/435809', 
 		text: '"The Harvesters" by Peter Bruegel, 1565 (Met Museum)',
 		isLight: true
 	},{	
 		img: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg', 
+		imgLink: 'https://artsandculture.google.com/asset/hunters-in-the-snow-winter/WgFmzFNNN74nUg', 
 		text: '"Hunters in the Snow" by Peter Bruegel, 1565 (Kunsthistorisches Museum)',
 		isLight: false
 	},{	
 		img: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg', 
+		imgLink: 'https://artsandculture.google.com/asset/-/WQGNMu-P7sedsg?childAssetId=zAH3mePrkISgzA', 
 		text: '"The Oxbow" by Thomas Cole, 1836 (Met Museum)',
 		isLight: false
 	},{	
 		img: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Albert_Bierstadt_-_Among_the_Sierra_Nevada%2C_California_-_Google_Art_Project.jpg', 
+		imgLink: 'https://americanart.si.edu/artwork/among-sierra-nevada-california-2059', 
 		text: '"Among the Sierra Nevada California" by Albert Bierstadt, 1868 (Smithsonian)',
 		isLight: true
 	}
@@ -66,7 +70,7 @@ const Banner = (props) => {
 					// robots.length + ' resources' + textB[txtNum] + '...'
 				}
 			</div>
-			<a className='imgATag' href={imgArr[imgNum].img}>
+			<a className='imgATag' href={imgArr[imgNum].imgLink}>
 				<div 
 					className={bannerClass()}
 					style={
