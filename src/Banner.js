@@ -22,6 +22,16 @@ const imgArr = [
 		imgLink: 'https://americanart.si.edu/artwork/among-sierra-nevada-california-2059', 
 		text: '"Among the Sierra Nevada California" by Albert Bierstadt, 1868 (Smithsonian)',
 		isLight: true
+	},{	
+		img: 'https://images.metmuseum.org/CRDImages/ad/original/DT2961.jpg', 
+		imgLink: 'https://www.metmuseum.org/art/collection/search/10150', 
+		text: '"Merced River, Yosemite Valley" by Albert Bierstadt, 1866 (Met Museum)',
+		isLight: true
+	},{	
+		img: 'https://images.metmuseum.org/CRDImages/ad/original/DT216681.jpg', 
+		imgLink: 'https://www.metmuseum.org/art/collection/search/10496?searchField=All&amp;sortBy=relevance&amp;ft=thomas+cole&amp;offset=0&amp;rpp=20&amp;pos=7', 
+		text: '"The Mountain Ford" by Thomas Cole, 1846 (Met Museum)',
+		isLight: true
 	}
 	// ,{	
 	// 	img: 'http://archeologie.culture.fr/chauvet/sites/all/themes/chauvet/assets/img/ours-chauvet.jpg', 
