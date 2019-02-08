@@ -4,9 +4,10 @@ const SearchBox = ({ searchfield, searchChange }) => {
 	return (
 		<div className='pa2 search'>
 			<input 
-				className='search' 
+				className='search'
+				id='mainSearch' 
 				type='search' 
-				placeholder=''
+				placeholder='search resources...'
 				onChange={searchChange} 
 				autofocus='true'
 			/>

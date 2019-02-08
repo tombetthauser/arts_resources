@@ -34,7 +34,7 @@ class App extends Component {
 				<Banner />
 				<div id='main'>
 					<h1 className='f1'>Studio Art Resources</h1>
-					<h2 className='sub-title'>For Visual Art History &amp; Studio Arts Students</h2>
+					<h2 className='sub-title'>Web Resources for Art Students</h2>
 					<SearchBox searchChange={this.onSearchChange}/>
 					<CardList robots={filteredRobots}/>
 					<Footer />

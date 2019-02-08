@@ -18,15 +18,16 @@ const imgArr = [
 		img: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Albert_Bierstadt_-_Among_the_Sierra_Nevada%2C_California_-_Google_Art_Project.jpg', 
 		text: '"Among the Sierra Nevada California" by Albert Bierstadt, 1868 (Smithsonian)',
 		isLight: true
-	},{	
-		img: 'http://archeologie.culture.fr/chauvet/sites/all/themes/chauvet/assets/img/ours-chauvet.jpg', 
-		text: 'Paleolithic Painting, c. 35,000 BCE (Chauvet Cave, France)',
-		isLight: true
-	},{	
-		img: 'https://d2u3kfwd92fzu7.cloudfront.net/catalog/artwork/gallery/1205/Price_Talpa.jpg', 
-		text: '"Talpa" by Ken Price, Ceramic Sculpture 2009',
-		isLight: true
 	}
+	// ,{	
+	// 	img: 'http://archeologie.culture.fr/chauvet/sites/all/themes/chauvet/assets/img/ours-chauvet.jpg', 
+	// 	text: 'Paleolithic Painting, c. 35,000 BCE (Chauvet Cave, France)',
+	// 	isLight: true
+	// },{	
+	// 	img: 'https://d2u3kfwd92fzu7.cloudfront.net/catalog/artwork/gallery/1205/Price_Talpa.jpg', 
+	// 	text: '"Talpa" by Ken Price, Ceramic Sculpture 2009',
+	// 	isLight: true
+	// }
 ]
 
 const textB = [
