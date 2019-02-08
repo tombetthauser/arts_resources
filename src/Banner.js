@@ -60,6 +60,7 @@ const bannerClass = () => {
 const Banner = (props) => {
 	return (
 		<div>
+			<meta name="viewport" content="width=device-width, initial-scale=0.2, maximum-scale=1.0, user-scalable=no" />
 			<div id='spacer'>
 				{
 					// robots.length + ' resources' + textB[txtNum] + '...'
